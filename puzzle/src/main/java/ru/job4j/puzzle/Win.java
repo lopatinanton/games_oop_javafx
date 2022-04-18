@@ -12,6 +12,7 @@ public class Win {
         }
         return result;
     }
+
     public static boolean Vertical(int[][] board, int column) {
         boolean result = true;
         for (int[] ints : board) {
